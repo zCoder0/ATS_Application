@@ -176,7 +176,7 @@
         formData.append("file", fileInput);
         formData.append("jd", jd);
 
-        fetch("/upload", {
+        fetch("https://ats-application-backend.onrender.com/upload", {
             method: "POST",
             body: formData
         })
