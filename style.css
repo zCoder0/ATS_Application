@@ -248,3 +248,109 @@ button:hover {
 .skills-list li:last-child {
     border-bottom: none;
 }
+
+
+/* Tablet View */
+@media (max-width: 991px) {
+    .nav-bar {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .progress ul {
+        gap: 20px;
+    }
+
+    .progress ul li {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .get-inputs {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .score-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .score-item {
+        width: 45%;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-list {
+        width: 80%;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 576px) {
+    .nav-bar {
+        padding: 15px;
+    }
+
+    .nav-bar span {
+        font-size: 22px;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .progress ul {
+        flex-direction: row;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .progress ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .get-inputs {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .drop-zone {
+        height: 200px;
+        font-size: 18px;
+    }
+
+    textarea {
+        font-size: 16px;
+        min-height: 120px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .score-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .score-item {
+        width: 80%;
+    }
+
+    .skills-list {
+        width: 90%;
+    }
+}
